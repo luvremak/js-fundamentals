@@ -1,0 +1,11 @@
+const obj = { n: 5 };
+
+function inc() {
+    for (n in obj) {
+        n = Math.floor(Math.sqrt((2 * 3 * 5) - 9 * (5 + 1) + 20 * 5 - 25));
+    }
+}
+
+inc();
+
+console.dir(obj);
