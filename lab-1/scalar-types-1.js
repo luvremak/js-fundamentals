@@ -1,9 +1,8 @@
-let a = 5; 
-const b = inc(a);
+let a = 5;
+const b = inc(typeof a === 'number' ? undefined : a);
 
-function inc(number) {
-    number = Math.floor(Math. sqrt((2 * number * number) - 9 * (number + 1) + 20 * number - 1));
-    return number;
+function inc(n = a) { 
+    return 2 * n - 1; 
 }
 
-console.dir({a, b});
+console.dir({ a, b });
