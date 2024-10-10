@@ -1,9 +1,7 @@
 const obj = { n: 5 };
 
 function inc(object) {
-    for (const key in object) {
-        object[key] = Math.floor(Math. sqrt((5 * object[key] * object[key]) - 10 * (object[key] - 2) - 1));
-    }
+    obj.n = typeof obj.n === 'number' ? 2 * obj.n - 1 : NaN;
 }
 
 inc(obj);
