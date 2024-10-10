@@ -1,4 +1,4 @@
-let arr = [true, 'hello', 5, 12, -200, false, false, 'word', 7, 9, false,'true', false, true, -11, 'string', 'text', 'word', 17, true,'seven'];
+let arr = [true, 'hello', 5, 12, -200, false, false, '5', 7, 9, false,'true', false, true, -11, 'string', 'text', 'word', 17, true,'seven'];
 
 let obj = {
     number: 0,
