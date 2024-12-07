@@ -58,7 +58,7 @@ to calculate sum of all given arguments
 For example sum(1, 2, 3) should return 6
 */
 
-const sum = (...args) => {
+const sum4 = (...args) => {
     let total = 0;
     let i = 0;
     if (args.length === 0) return total; 
@@ -82,3 +82,6 @@ const sum5 = (...args) => {
     return args.reduce((acc, curr) => acc + curr, 0);
   };
   
+console.log(sum5(1, 2, 3));
+
+
